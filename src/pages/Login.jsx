@@ -1,10 +1,12 @@
 function Login() {
   return (
-    <div className="p-10">
-      <h1 className="text-2xl font-semibold">Login</h1>
-      <p className="mt-2">Pantalla de inicio de sesión</p>
+    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+      <div className="bg-white p-8 rounded-lg shadow-md">
+        <h1 className="text-2xl font-bold mb-4">🔐 Login</h1>
+        <p className="text-gray-600">Página de inicio de sesión (próximamente)</p>
+      </div>
     </div>
-  );
+  )
 }
 
-export default Login;
+export default Login
